@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/tutorial.css">
+</head>
+<body>
+	<section id="cuerpo">	
+	<header>
+		<h1 class="centrar">Tutorial</h1>
+		<h2 >Como realizar una clase en Java</h2>
+	</header>
+
+	<section>
+		<article>
+			
+			<div class="ajustarTexto">
+				Para crear una clase en java utilizando como IDE NetBeans debemos de seguir los siguientes pasos:
+				<li class="ajustarTexto">
+					Primero debemos de crear un nuevo proyecto en java.
+					<br>
+					<br>
+					<img class="tamaño" src="img/concecionaria.jpg">
+				</li>
+				<br>
+					<br>
+				<li class="ajustarTexto">
+					Segundo crear una clase. 
+					<br>
+					<br>
+					<img class="tamaño" src="img/clase.jpg">
+					<br>
+					<br>
+					Se muestra la sintaxis de una clase en Java.
+					<br>
+					<br>
+
+					<img class="tamaño" src="img/sintaxisClase.jpg">
+
+				</li>
+				<br>
+					<br>
+				<li class="ajustarTexto">
+					Tercero definir los atributos de la clase  aunque estos puede o no tenerlos. 
+				</li>
+				<br>
+					<br>
+				<li class="ajustarTexto">
+					Cuarto crear los contructores.
+					<br>
+					Se muestra la sintaxis de una clase en Java.
+					<br>
+					<br>
+
+					<img class="tamaño" src="img/sintaxisConstructor.jpg">
+
+				</li>
+				<br>
+					<br>
+				<li class="ajustarTexto">
+					Quinto crear los metodos.
+				</li>
+
+				<br>
+				En la siguiente imagen tenemos un ejemplo de una clase llamada Coche creada en java.
+				<br>
+					<br>
+			</div>
+		</article>
+		<br>
+
+
+		<article>
+			<img class="tamaño" src="img/claseCoche.jpg">
+			<div class="ajustarTexto">
+				<h1>
+					En la linea 12 se ve el nombre de la clase llamada <mark>Coche</mark>, en las lineas 13 a la 15 se definieron sus atributos que son  <mark>marca</mark>, <mark>modelo</mark> y <mark>chasis.</mark> 
+				</h1>
+
+
+
+				<h1>En la imagen la clase Coche tiene 2 constructores. Un constructo vacío entre las lineas 17 y 19 y un  constructor con todos sus parármetros entre las lineas 21 y 25. Por lo que podremos crear objetos de cualquiera de los 2 formas  como vemos en la siguiente imagen. Como  podemos observar tenemos dos metodos con el mismo nombre, pero no tienen el mismo numero de parametros, y asi es como Java los diferencia.
+
+				<br>
+				<br>
+				Como una buena practica hemos declarado los atributos como privados (private),
+				entonces para poder llamarlos desde nuestra clase principal utilizamos las funciones set y get. En las lineas 21 a 45 declaramos un set y un get para cada atributo.
+
+				<br>
+				<br> 
+					Entre las lineas 47 y 50 aparece un método . El método da acceso publico (public), se llama escribirInformacion y no tiene parametros. El método tiene una unica sentencia que ocupa las líneas 48 y 49 y va a mostrar en consola un texto.  
+
+				<br>
+				<br>
+				En la siguiente imagen mostrare como instanciar un objeto desde nuestra clase principal.
+
+
+				</h1>
+					
+			
+				<br>
+			
+			</p>
+			</div>
+
+		</article>
+
+		<article>
+			<img class="tamaño" src="img/clasePrincipal.jpg">
+			<div class="ajustarTexto">
+			<h1>En la linea 19 creamos un objeto llamado <mark>coche</mark> que no contine parametros y en la linea 20 creamos otro objeto llamado <mark>coche2</mark> que contiene parametros ambos son instancias de la clase <mark>Coche</mark>.
+			<br>
+			<br>
+			En la linea 24 accedemos con la funcion get al atributo que se a guardado en el objeto <mark>coche2</mark> y la imprimimos.
+			<br>
+			<br>	
+			En la linea 26 imbocamos al metodo <mark>escribirInformacion</mark> el cual nos imprimira los atributos guardados en el objeto <mark>coche2</mark>.
+			<br>
+			<br>
+			En la linea 30 accedemos con la funcion set al atributo <mark>marca</mark> que se a guardado en el objeto <mark>coche2</mark> y lo modificamos colocando el texto <mark>Toyota</mark>
+			<br>
+			<br>
+			En la siguiente imagen mostramos la ejecucion de nuestra clase y como podemos ver en la tercera linea se a modificado el atributo <mark>marca</mark> del objeto <mark>coche2</mark> comparandolo con el de la segunda linea.
+			</h1>
+			
+		    </div>
+		    <img class="tamaño" src="img/resultado.jpg">
+
+		</article>
+
+	</section>
+	</section>
+
+	<footer>
+		<div id="navegadores">
+			
+	</footer>
+</body>
+</html>
